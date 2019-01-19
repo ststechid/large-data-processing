@@ -15,7 +15,7 @@ public class GenerateTestData {
 		File file = new File("src/test/resources/largefile.txt");
 		FileOutputStream fos = new FileOutputStream(file);
 
-		for (int i = 0; i < 1000000; i++) {
+		for (int i = 0; i < 100; i++) {
 
 			String firstName = faker.name().firstName();
 			String lastName = faker.name().lastName();
@@ -23,7 +23,7 @@ public class GenerateTestData {
 			int workingSince = faker.number().numberBetween(1999, 2018);
 			String streetAddress = faker.address().streetAddress();
 			String city = faker.address().city();
-			String country = faker.address().country();
+			String country = faker.address().countryCode();
 			Long annualSalary = new Long(faker.number().numberBetween(6, 25) * 10000);
 			String phoneNumber = faker.phoneNumber().cellPhone();
 			String employeeCode = faker.bothify("??-#####", true);
