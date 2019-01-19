@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>id.ststech.rnd</groupId>
+	<artifactId>process-large-data</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Process Large Data Example</name>
+
+	<developers>
+		<developer>
+			<id>aliirawan</id>
+			<email>boylevantz@gmail.com</email>
+			<organization>SOLUSI TEKNOLOGI SEJATI, PT</organization>
+			<organizationUrl>https://solusiteknologi.co.id</organizationUrl>
+		</developer>
+	</developers>
+	<properties>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>0.16</version>
+		</dependency>
+	</dependencies>
+</project>
